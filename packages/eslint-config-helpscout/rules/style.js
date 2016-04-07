@@ -25,7 +25,7 @@ module.exports = {
     'id-length': 0,
     // this option sets a specific tab width for your code
     // https://github.com/eslint/eslint/blob/master/docs/rules/indent.md
-    'indent': [2, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
+    'indent': [2, 4, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': [2, 'prefer-double'],
@@ -47,7 +47,7 @@ module.exports = {
     'linebreak-style': 0,
     // specify the maximum length of a line in your program
     // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
-    'max-len': [2, 100, 2, {
+    'max-len': [2, 120, 4, {
       'ignoreUrls': true,
       'ignoreComments': false
     }],
