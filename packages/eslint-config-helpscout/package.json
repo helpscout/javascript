@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-helpscout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Help Scout's ESLint config. Based on Airbnb's Style Guide",
   "main": "index.js",
   "scripts": {
